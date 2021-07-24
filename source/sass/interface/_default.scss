@@ -1,0 +1,53 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+}
+ul,li,ul li, ol li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6 p{
+  margin: 0;
+  padding: 0;
+
+}
+html, body{
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+}
+.container{
+  max-width: 1166px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn-reset{
+  background-color: transparent;
+  border: none;
+
+}

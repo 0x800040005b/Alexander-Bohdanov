@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alexander Bogdanov shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-block flex-container">
+            <a class="header-logo logo">
+                <img src="img/header/logo.svg" width="170" height="45" alt="logo" class="header-logo__img">
+            </a>
+            <nav class="header__nav menu">
+                <ul class="menu__list flex-container">
+                    <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Lookbook</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Адреса магазинов</a></li>
+                </ul>
+            </nav>
+            <div class="header-user__nav user-nav">
+                <a href="#" class="user-nav__link user-nav__cabinet">
+                    <img src="img/header/user_icon.svg" width="20" height="20" alt="личный кабинет пользователя"
+                         class="user-nav__img cabinet__img">
+                </a>
+                <a href="#" class="user-nav__link user-nav__favourite">
+                    <img src="img/icons/favourite-list_icon.svg" width="20" height="20" alt="Список избранных вещей"
+                         class="user-nav__img favourite__img">
+                </a>
+                <a href="#" class="user-nav__link user-nav__cart">
+                    <img src="img/header/shop-cart_icon.svg" width="20" height="20" alt="личный кабинет пользователя"
+                         class="user-nav__img cart__img">
+                    <p class="cart-count">18</p>
+                </a>
+                <a href="#" class="user-nav__link user-nav__search">
+                    <img src="img/header/search-icon.svg" width="20" height="20" alt="личный кабинет пользователя"
+                         class="user-nav__img search__img">
+                </a>
+
+
+            </div>
+        </div>
+        <!-- /.header-block flex-container -->
+    </div>
+    <!-- /.container -->
+</header>
+<main class="main">
+    <h1 class="visually-hidden">Alexander Bogdanov</h1>
+    <section class="slider">
+        <ul class="slider-list">
+            <li class="slide__item">
+                <div class="slide">
+                    <img src="img/slider/img_slider.jpg" width="1440" height="550" alt="slide-1" class="slide__img">
+                    <div class="container">
+                        <div class="slide__body">
+                            <small class="slide-label">Одежда <br>
+                                для утонченных женщин
+                            </small>
+                            <h2 class="slide-title">Новая <br>
+                                коллекция</h2>
+                            <button class="button slide__button">Посмотреть в каталоге</button>
+                        </div>
+                        <!-- /.slide__body -->
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+        <div class="slider-controls"></div>
+    </section>
+    <!-- /.slider -->
+    <section class="features">
+        <div class="container">
+            <ul class="features__list">
+                <li class="features__item">
+                    <img src="img/adventeges/1.svg" width="50" height="50" alt="Собственные  уникальные принты"
+                         class="features__img">
+                    <p class="features__text">Собственные  уникальные принты</p>
+                </li>
+                <li class="features__item">
+                    <img src="img/adventeges/2.svg" width="50" height="50" alt="Авторская вышивка  для каждого изделия"
+                         class="features__img">
+                    <p class="features__text">Авторская вышивка  для каждого изделия</p>
+                </li>
+                <li class="features__item">
+                    <img src="img/adventeges/3.svg" width="50" height="50" alt="Произведенные во Франции кружева"
+                         class="features__img">
+                    <p class="features__text">Произведенные во Франции кружева</p>
+                </li>
+                <li class="features__item">
+                    <img src="img/adventeges/3.svg" width="50" height="50" alt="Лучшая  фурнитура  из Италии"
+                         class="features__img">
+                    <p class="features__text">Лучшая фурнитура из Италии</p>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.features -->
+    <section class="notes">
+        <div class="container">
+            <div class="notes-block notes-block_out">
+                <div class="notes-text">
+                    <h2 class="notes-text__title">Заметки путешественника. Голландия</h2>
+                    <div class="notes-block notes-block_in">
+                        <small class="notes-label">Осень 2020/Зима 2021</small>
+                        <button class="button notes__button"><img src="img/icons/arrow.svg" alt=""></button>
+                    </div>
+                </div>
+                <img src="" alt="" class="notes__image"></div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.notes -->
+    <section class="products">
+        <div class="container">
+            <div class="products-block">
+                <div class="products-text">
+                    <h2 class="products__title title">Новинки</h2>
+                    <p class="products__text">Каждая модель – маленькое произведение искусства, подлинник автора, без
+                        копий,
+                        реплик и прямых заимствований.</p>
+                    <a href="#" class="button products__button">Посмотреть все</a>
+                </div>
+                <ul class="products-cards card">
+                    <li class="products-cards__item">
+                        <a href="#" class="card__link">
+                            <img src="img/new%20products/1.jpg" alt="1" class="card__img" width="238" height="370">
+                            <div class="card-content">
+                                <p class="card-content__name">
+                                    Брюки "Чёрный тюльпан" / Trousers ''Black tulip''
+                                </p>
+                                <p class="card-content__price card-content_discount">10 500 ₽ <span
+                                        class="card-content__full-price">12 000 ₽</span></p>
+                                <button class="card-favourite__button btn-reset" aria-label="добавить в избранное"><img
+                                        src="img/icons/favourite-list_icon.svg"
+                                        width="20" height="18"
+                                        alt="add to favourite"
+                                        class="card-content__favourite"></button>
+
+                            </div>
+                        </a>
+                    </li>
+                    <li class="products-cards__item">
+                        <a href="#" class="card__link">
+                            <img src="img/new%20products/2.jpg" alt="2" class="card__img" width="238" height="370">
+                            <div class="card-content">
+                                <p class="card-content__name">
+                                    Платье «Королевский дворец» / Dress «Royal Palace»
+                                </p>
+                                <p class="card-content__price card-content_discount">22 400 ₽</p>
+                                <button class="card-favourite__button btn-reset" aria-label="добавить в избранное"><img
+                                        src="img/icons/favourite-list_icon.svg"
+                                        width="20" height="18"
+                                        alt="add to favourite"
+                                        class="card-content__favourite"></button>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="products-cards__item">
+                        <a href="#" class="card__link">
+                            <img src="img/new%20products/3.jpg" alt="3" class="card__img" width="238" height="370">
+                            <div class="card-content">
+                                <p class="card-content__name">
+                                    Кардиган «Лунный мир» / Cardigan «Lunar world»
+                                </p>
+                                <p class="card-content__price card-content_discount">15 700 ₽</p>
+                                <button class="card-favourite__button btn-reset" aria-label="добавить в избранное"><img
+                                        src="img/icons/favourite-list_icon.svg"
+                                        width="20" height="18"
+                                        alt="add to favourite"
+                                        class="card-content__favourite"></button>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- /.products-block -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.products -->
+    <section class="author">
+        <div class="container">
+            <div class="author-block">
+                <div
+                        class="author-img"><img src="img/author/author.png" width="609" height="720"
+                                                alt="author photo Alexander Bohdanov designer"></div>
+                <div class="author-content">
+                    <h2 class="author-title">
+                        Женщинам, <br>
+                        которые предпочитают не эпатировать, а очаровывать
+                    </h2>
+                    <p class="author-text">
+                        Моя одежда адресована достаточно утонченным, интеллигентным женщинам. Женщинам, чьё эстетическое
+                        «я» строится на оттенках, на полутонах. Женщинам, которые предпочитают не эпатировать, а
+                        очаровывать. У меня есть и яркие коллекции, но основа – нежные, пастельно-акварельные вещи. Они
+                        позволяют лучше передать нюансы текстуры, деталировки. В таких вещах лучше виден рисунок
+                        волокон, лучше видна строчка – все те чарующие мелочи, которые помогают влюбляться в одежду.
+                        Получается такой парадокс: будучи весьма спокойной по основному тону, вещь становится яркой. Но
+                        яркой в деталях, в нюансах.
+                    </p>
+                    <small class="author-signature">Александр Богданов / Основатель и Главный Дизайнер</small>
+                </div>
+
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.author -->
+    <section class="inspiration">
+        <div class="container">
+            <h2 class="title inspiration__title">Вдохновение</h2>
+            <p class="inspiration__label">Иллюстрации пастелью лично от Александра <br> Богданова
+                для каждой капсулы коллекции</p>
+            <div class="inspiration-img">
+                <img src="img/inspiration/block_imgs.jpg" width="1146" height="250"
+                     alt="inspiration images">
+                <img src="img/inspiration/holst.jpg" alt="illustration holst" width="805" height="635"
+                     class="inspiration-holst">
+            </div>
+
+        </div>
+        <!-- /.container-->
+    </section>
+    <!-- /.inspiration -->
+    <section class="materials">
+        <div class="container">
+            <div class="materials-block">
+                <div class="materials-left material">
+                    <h2 class="title materials__title">Материалы</h2>
+                    <ul class="materials-list">
+                        <li class="materials-item">
+                            <p class="materials-text">Трикотажные полотна из Италии</p>
+                            <img src="img/materials/icon/1.svg" width="50" height="50"
+                                 alt="Трикотажные полотна из Италии"
+                                 class="materials__img">
+                        </li>
+                        <li class="materials-item">
+                            <p class="materials-text">Специально
+                                созданные переплетения
+                                для комфорта в движении</p>
+                            <img src="img/materials/icon/2.svg" width="50" height="50"
+                                 alt="Специально созданные переплетения для комфорта в движении"
+                                 class="materials__img">
+                        </li>
+                        <li class="materials-item">
+                            <p class="materials-text">Натуральные материалы: шелк, визкоза, хлопок, лён</p>
+                            <img src="img/materials/icon/3.svg" width="50" height="50"
+                                 alt="Натуральные материалы: шелк, визкоза, хлопок, лён"
+                                 class="materials__img">
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="materials-right detail">
+                    <h2 class="title materials__title">Детали</h2>
+                    <ul class="detail-list">
+                        <li class="detail-item">
+                            <img src="img/materials/icon/4.svg" width="50" height="50" alt="Уникальные
+                                трикотажные детали" class="materials__img">
+                            <p class="materials-text">Уникальные
+                                трикотажные детали</p>
+                        </li>
+                        <li class="detail-item">
+                            <img src="img/materials/icon/5.svg" width="50" height="50"
+                                 alt="Авторские принты, нарисованные Александром Богдановым" class="materials__img">
+                            <p class="materials-text">Авторские принты, нарисованные Александром Богдановым</p>
+                        </li>
+                        <li class="detail-item">
+                            <img src="img/materials/icon/6.svg" width="50" height="50"
+                                 alt="Авторские вышитые шевроны" class="materials__img">
+                            <p class="materials-text">Авторские вышитые шевроны</p>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.materials -->
+    <section class="styles">
+        <div class="container">
+            <div class="styles-block">
+                <div class="styles-content">
+                    <h2 class="title styles__title">Романтика  <br>ваших чувств</h2>
+                    <p class="styles-text">Каждая модель — маленькое произведение искусства, подлинник автора, без
+                        копий, реплик и прямых заимствований.</p>
+                    <a href="#" class="button styles__button">В каталог</a>
+                </div>
+                <ul class="styles-list">
+                    <li class="styles-item">
+                        <div class="styles-item__content">
+                            <img src="img/styles/1.jpg" alt="Повседневный Стиль" width="250" height="420"
+                                 class="styles-img">
+                            <p class="styles-text">Повседневный Стиль</p>
+                        </div>
+                    </li>
+                    <li class="styles-item">
+                        <div class="styles-item__content">
+                            <img src="img/styles/2.jpg" alt="Деловой стиль" width="250" height="420"
+                                 class="styles-img">
+                            <p class="styles-text">Деловой стиль</p>
+                        </div>
+                    </li>
+                    <li class="styles-item">
+                        <div class="styles-item__content">
+                            <img src="img/styles/3.jpg" alt="Чистый стиль" width="250" height="420"
+                                 class="styles-img">
+                            <p class="styles-text">Чистый стиль</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.styles -->
+    <section class="product">
+        <div class="container">
+            <div class="product-left">
+                <h2 class="title product__title">Alexander Bogdanov — бренд, понимающий женщин</h2>
+                <div class="product-card">
+                    <div class="product-card__img"><img src="img/product/product.jpg" width="261" height="410"
+                                                        alt="Платье «Миндальный цвет»"></div>
+                    <div class="product-card-text product-text">
+                        <h3 class="product-text__title">Платье «Миндальный цвет»</h3>
+                        <span class="product-text__price">28 700 ₽</span>
+                        <p class="product-text__desc">
+                            Характер платья задаёт ткань – крупнофактурное кружево
+                            нежных серо-розовых оттенков. Состав и оттенки делают материал тактильно приятным,
+                            подчёркивают элитарность кружева.
+                        </p>
+                        <a href="" class="product__link">
+                            <img src="img/icons/arrow.svg" width="18" height="18" alt="Подробнее" class="product-img">
+                            <small class="product-link__text">Подробнее</small>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product-right">
+                <div class="product-slider">
+                    <div class="product-slide">
+                        <img src="img/product/product-2.jpg" width="460" height="620" alt="Платье Миндального цвета"
+                             class="product-slide__img">
+                    </div>
+                    <div class="product-controls"></div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.product -->
+    <section class="shops">
+        <h2 class="visually-hidden">магазины</h2>
+        <div class="container">
+            <div class="shops-block">
+                <div class="shops-content">
+                    <h3 class="title shops__title">Более
+                        200 магазинов
+                        в России</h3>
+                </div>
+                <div class="shops-slider">
+                    <div class="shops-slide shops-lide__container">
+                        <div class="shops-slide__item">
+                            <img src="img/shops/1.jpg" width="264" height="170" alt="1">
+                        </div>
+                        <div class="shops-slide__item">
+                            <img src="img/shops/2.jpg" width="264" height="170" alt="2">
+                        </div>
+                        <div class="shops-slide__item">
+                            <img src="img/shops/3.jpg" width="488" height="342" alt="3">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.shops -->
+    <section class="about">
+        <div class="container">
+            <h2 class="title about__title">О компании</h2>
+            <p class="about-text">
+                Любую вещь из каталога интернет-магазина alexanderbogdanov.com всегда можно заказать с бесплатной
+                доставкой по всей России и примерить перед оплатой. Это позволяет быть уверенной в том, что модель
+                идеально подойдет. Курьер может доставить несколько моделей на выбор, а покупательница заплатить только
+                за те, которые идеально подойдут.
+            </p>
+            <p class="about-text">
+                Оплатить покупки из интернет-магазина alexanderbogdanov.com можно любым удобным способом: наличными
+                курьеру после примерки, банковской картой прямо на сайте, а также наложенным платежом. У каждого курьера
+                в наличии мобильный терминал для оплаты по карте прямо у вас дома, после примерки. Интернет-магазин
+                alexanderbogdanov.com очень внимательно относится к удовлетворенности своих клиентов. Поэтому товар,
+                который был куплен, но не подошел можно вернуть в течение 14 дней после покупки.
+            </p>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.about -->
+
+</main>
+<!-- /.main -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-block">
+            <div class="footer-item">
+                <h2 class="footer-title">О нас</h2>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#" class="footer-link">О компании</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Александр Богданов</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">История</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Пресса о нас</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Новости</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-title">Каталог</h2>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#" class="footer-link">Купить женскую одежду</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Платья</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link"> Юбки</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Джемперы</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Жакеты и бомберы</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Блузы</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Рубашки</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Верхняя одежда</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Аксессуары</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-title">Помощь</h2>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#" class="footer-link">Как оформить заказ</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Как выбрать размер</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Оплата</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Доставка</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Возврат</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Конфиденциальность</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Мои заказы</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Уход за изделиями</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-title">Партнерам</h2>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#" class="footer-link">Партнерам</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Франчайзинг</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Зарубежные партнеры</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Оптовые партнеры</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-title">Подпишитесь <br> на нашу рассылку</h2>
+                <p class="footer-label">Обещаем отправлять только важное и интересное</p>
+                <form action="#" method="post" class="footer-form">
+                    <input type="email" required placeholder="E-mail" class="footer-form__input footer-form__email">
+                    <button class="footer-form_submit footer-form__button btn-reset" aria-label="подписаться на рассылку"
+                            type="submit"><img src="img/footer/icons/icon-email.svg" alt="Подписаться на рассылку">
+                    </button>
+                </form>
+                <small class="footer-small">Отправляя данные формы, вы соглашаетесь с условиями политикой
+                    конфиденциальности</small>
+                <div class="footer-social__block">
+                    <div class="footer-social">
+                        <a href="https://youtube.com" target="_blank" class="footer-social__link">
+                            <img
+                                    src="img/footer/icons/youtube.svg"
+                                    width="24" height="24"
+                                    alt="youtube-icon"
+                                    class="footer-social__logo"></a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" class="footer-social__link">
+                            <img
+                                    src="img/footer/icons/facebook.svg"
+                                    width="8" height="16"
+                                    alt="facebook-icon"
+                                    class="footer-social__logo"></a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://instagram.com" target="_blank" class="footer-social__link">
+                            <img
+                                    src="img/footer/icons/insta.svg"
+                                    width="16" height="16"
+                                    alt="insta-icon"
+                                    class="footer-social__logo"></a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://vk.com" target="_blank" class="footer-social__link">
+                            <img
+                                    src="img/footer/icons/vk.svg"
+                                    width="18" height="12"
+                                    alt="vk-icon"
+                                    class="footer-social__logo"></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer-bottom">
+            <a class="footer-logo logo">
+                <img src="img/header/logo.svg" width="170" height="45" alt="logo" class="header-logo__img">
+            </a>
+            <div class="footer-copyright">&copy;  2020, Alexander Bogdanov. Все права защищены</div>
+            <div class="footer-bottom__block">
+                <a href="#" class="footer-bottom__link">Политика конфиденциальности</a>
+                <a href="#" class="footer-bottom__link">Условия продажи</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- /.container -->
+</footer>
+<!-- /.footer -->
+</body>
+</html>

@@ -1,0 +1,54 @@
+.slide{
+  position: relative;
+  &__body{
+    padding-top: 80px;
+    max-width: 478px;
+    margin-left: 58px;
+  }
+  &-label{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: $gray-dark-color;
+    display: block;
+    position: relative;
+    margin-bottom: 25px;
+    &::before{
+      content: '';
+      display: block;
+      position: absolute;
+      height: 100%;
+      left: -48px;
+      width: 2px;
+      background-color: $blue-sky-color;
+    }
+  }
+
+  &-title{
+    font-family: Literata, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 64px;
+    color: $dark-blue-color;
+    margin-bottom: 51px;
+  }
+  &__img{
+    position: absolute;
+    z-index: -1;
+  }
+  &__button {
+    display: inline-block;
+    width: 100%;
+    max-width: 264px;
+   height: 54px;
+    text-transform: uppercase;
+
+  }
+  &r{
+    position: relative;
+    padding-bottom: 164px;
+    &-controls{
+      display: none;
+    }
+  }
+}

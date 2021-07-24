@@ -1,0 +1,54 @@
+.header{
+ padding-top:72px;
+  padding-bottom: 30px;
+  &-logo{
+    display: inline-block;
+    margin-right: 132px;
+  }
+  &-block{
+    align-items: center;
+  }
+  &__nav{
+    margin-right: 108px;
+  }
+}
+.menu{
+  &__item{
+    margin-right: 37px;
+  }
+  &__link{
+    font-family: Literata;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: $dark-blue-color;
+    text-transform: uppercase;
+    letter-spacing: 0.005em;
+    text-decoration: none;
+    transition: all 0.8s ease;
+    display: inline-block;
+    &::after{
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: currentColor;
+      transition: all 0.8s ease;
+
+    }
+    &:hover{
+      &::after{
+        width: 100%;
+      }
+    }
+  }
+}
+.user-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__link{
+    display: inline-block;
+    margin-right: 25px;
+  }
+}

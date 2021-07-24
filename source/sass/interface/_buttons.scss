@@ -1,0 +1,19 @@
+.button{
+  color: $white-color;
+  background-color: $blue-sky-color;
+  font-family: "Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  &:hover{
+    background-color: $blue-sky-hover-color;
+  }
+  &:active{
+    background-color: $blue-sky-active-color;
+  }
+  &:disabled{
+    background-color: $blue-sky-active-color;
+    opacity: 0.15;
+  }
+}
