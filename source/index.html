@@ -77,25 +77,25 @@
     <section class="features">
         <div class="container">
             <ul class="features__list">
-                <li class="features__item">
-                    <img src="img/adventeges/1.svg" width="50" height="50" alt="Собственные  уникальные принты"
+                <li class="features__item flex-container">
+                    <img src="img/advantages/1.svg" width="50" height="50" alt="Собственные  уникальные принты"
                          class="features__img">
-                    <p class="features__text">Собственные  уникальные принты</p>
+                    <p class="features__text">Собственные <br> уникальные принты</p>
                 </li>
-                <li class="features__item">
-                    <img src="img/adventeges/2.svg" width="50" height="50" alt="Авторская вышивка  для каждого изделия"
+                <li class="features__item flex-container">
+                    <img src="img/advantages/2.svg" width="50" height="50" alt="Авторская вышивка  для каждого изделия"
                          class="features__img">
-                    <p class="features__text">Авторская вышивка  для каждого изделия</p>
+                    <p class="features__text">Авторская вышивка <br> для каждого изделия</p>
                 </li>
-                <li class="features__item">
-                    <img src="img/adventeges/3.svg" width="50" height="50" alt="Произведенные во Франции кружева"
+                <li class="features__item flex-container">
+                    <img src="img/advantages/3.svg" width="50" height="50" alt="Произведенные во Франции кружева"
                          class="features__img">
-                    <p class="features__text">Произведенные во Франции кружева</p>
+                    <p class="features__text">Произведенные во <br> Франции кружева</p>
                 </li>
-                <li class="features__item">
-                    <img src="img/adventeges/3.svg" width="50" height="50" alt="Лучшая  фурнитура  из Италии"
+                <li class="features__item flex-container">
+                    <img src="img/advantages/4.svg" width="50" height="50" alt="Лучшая  фурнитура  из Италии"
                          class="features__img">
-                    <p class="features__text">Лучшая фурнитура из Италии</p>
+                    <p class="features__text">Лучшая фурнитура <br> из Италии</p>
                 </li>
 
             </ul>
@@ -105,15 +105,23 @@
     <!-- /.features -->
     <section class="notes">
         <div class="container">
-            <div class="notes-block notes-block_out">
+            <div class="notes-block notes-block_out flex-container">
                 <div class="notes-text">
                     <h2 class="notes-text__title">Заметки путешественника. Голландия</h2>
-                    <div class="notes-block notes-block_in">
+                    <div class="notes-block notes-block_in flex-container">
                         <small class="notes-label">Осень 2020/Зима 2021</small>
-                        <button class="button notes__button"><img src="img/icons/arrow.svg" alt=""></button>
+                        <a href="#" class=" notes-link flex-container">
+                            <div class="notes-link__img button flex-container">
+                                <img src="img/icons/arrow.svg"
+                                     width="18" height="18"
+                                     alt="листать полный каталог">
+                            </div>
+                            <p class="notes-link__text">листать полный каталог</p>
+                        </a>
                     </div>
                 </div>
-                <img src="" alt="" class="notes__image"></div>
+                <img src="img/notes/magazine.png" width="600" height="260" alt="magazine photo" class="notes__image">
+            </div>
         </div>
         <!-- /.container -->
     </section>
@@ -468,7 +476,8 @@
                 <p class="footer-label">Обещаем отправлять только важное и интересное</p>
                 <form action="#" method="post" class="footer-form">
                     <input type="email" required placeholder="E-mail" class="footer-form__input footer-form__email">
-                    <button class="footer-form_submit footer-form__button btn-reset" aria-label="подписаться на рассылку"
+                    <button class="footer-form_submit footer-form__button btn-reset"
+                            aria-label="подписаться на рассылку"
                             type="submit"><img src="img/footer/icons/icon-email.svg" alt="Подписаться на рассылку">
                     </button>
                 </form>
@@ -509,7 +518,6 @@
                     </div>
 
 
-
                 </div>
             </div>
 
@@ -519,7 +527,7 @@
             <a class="footer-logo logo">
                 <img src="img/header/logo.svg" width="170" height="45" alt="logo" class="header-logo__img">
             </a>
-            <div class="footer-copyright">&copy;  2020, Alexander Bogdanov. Все права защищены</div>
+            <div class="footer-copyright">&copy; 2020, Alexander Bogdanov. Все права защищены</div>
             <div class="footer-bottom__block">
                 <a href="#" class="footer-bottom__link">Политика конфиденциальности</a>
                 <a href="#" class="footer-bottom__link">Условия продажи</a>
