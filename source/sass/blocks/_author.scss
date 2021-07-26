@@ -1,0 +1,53 @@
+.author {
+  background-image: url("../img/author/author.png"), url("../img/author/big-logo.svg");
+  background-position: 0 0, right top;
+  background-size: 50% auto, 50% auto;
+  background-repeat: no-repeat, no-repeat;
+  padding-top: 165px;
+  padding-bottom: 105px;
+  &-block {
+  }
+
+  &-content {
+    margin-left: auto;
+    margin-right: 8px;
+    max-width: 657px;
+
+  }
+  &__title{
+    font-family: "Literata", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    letter-spacing: -0.02em;
+    &::before{
+      content: '';
+      display: inline-block;
+      background-image: url("../img/author/Union.svg");
+      background-position: 0 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 40px;
+      position: absolute;
+      top: 0;
+      left: -100px;
+    }
+  }
+  &-text{
+    font-family: "Gilroy", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: $dark-blue-color;
+    margin-bottom: 20px;
+  }
+  &-signature{
+    font-family: "Gilroy",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: $dark-blue-color;
+  }
+}

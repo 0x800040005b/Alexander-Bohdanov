@@ -2,23 +2,30 @@
   &-block{
     background-color: $gray-light-color;
     border-top-left-radius: 30px;
-    padding-left: 50px;
+    padding-left: 30px;
     &_in{
       align-items: center;
     }
   }
   &-label{
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
     margin-right: 20px;
   }
   &-text{
     max-width: 500px;
     padding-top: 56px;
+    padding-bottom: 34px;
+    padding-left: 2px;
     &__title{
       font-family: "Literata";
       font-size: 34px;
       font-weight: 600;
       line-height: 48px;
       margin-bottom: 20px;
+      letter-spacing: 0.01em;
     }
   }
   &__image{
