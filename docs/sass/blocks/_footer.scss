@@ -42,12 +42,18 @@
   &-form{
     margin-bottom: 30px;
     position: relative;
+    display: inline-block;
     &__input{
       min-width: 269px;
       min-height: 50px;
       border-radius: 55px;
       padding-left: 25px;
+      padding-right: 70px;
       border: none;
+      &:focus{
+        outline: none;
+        border: 1px solid $gray-dark-color;
+      }
       &::placeholder{
         font-family: "Gilroy",sans-serif;
         font-size: 15px;
@@ -59,6 +65,11 @@
       position: absolute;
       top:0;
       right: 17px;
+    }
+    &_submit{
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
   &-small{
@@ -83,6 +94,7 @@
       flex-wrap: wrap;
     }
   }
+
   &-bottom{
     padding: 22px 0;
     background-color: darken($dark-blue-color, 3%);
