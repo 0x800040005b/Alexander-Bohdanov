@@ -7,6 +7,11 @@ let browserSync = require('browser-sync').create(),
 
 let extension = 'scss';
 
+gulp.task('moveFiles', (done)=>{
+    gulp.src('source/**/*.*')
+        .pipe(gulp.dest('docs'))
+    done();
+});
 gulp.task('sass', function (done) {
     gulp.src('source/sass/**/*.' + extension)
         .pipe(sass().on('error', sass.logError))
@@ -26,6 +31,9 @@ gulp.task('server',function () {
     gulp.watch('source/sass/**/*.'+ extension).on('change',gulp.series('sass'));
     gulp.watch('source/*.html').on('change', browserSync.reload);
     gulp.watch('source/js/**/*.js').on('change', browserSync.reload);
+    gulp.watch('source/**/*.*').on('change', gulp.series('moveFiles'));
+
+
 
 
 });

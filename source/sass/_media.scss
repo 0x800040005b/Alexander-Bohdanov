@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px) {
+.header{
+  &-burger{
+    display: block;
+  }
+  &-logo{
+    margin-right: 0;
+  }
+  &__nav{
+    width: 0;
+    height: 0;
+    margin-right: 0;
+    visibility: hidden;
+    opacity: 0;
+
+  }
+  &-user{
+    &__nav{
+      margin-left: auto;
+    }
+  }
+}
+}

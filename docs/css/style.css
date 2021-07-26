@@ -510,11 +510,51 @@ img {
   line-height: 50px;
 }
 
+.btn-reset {
+  background-color: transparent;
+  border: none;
+}
+
 /* BLOCKS */
+
+/* Burger */
+
+.burger {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.burger-line {
+  width: 20px;
+  height: 2px;
+  margin-bottom: 6px;
+  background-color: #4e5b67;
+  display: block;
+}
+
+.burger-line_long {
+  width: 15px;
+}
+
+.line-first {
+  top: 0;
+}
+
+.line-last {
+  bottom: 0;
+}
+
+/* HEADER */
 
 .header {
   padding-top: 72px;
   padding-bottom: 30px;
+}
+
+.header-burger {
+  display: none;
 }
 
 .header-logo {
@@ -527,7 +567,8 @@ img {
 }
 
 .header__nav {
-  margin-right: 108px;
+  margin-right: 90px;
+  max-width: 556px;
 }
 
 .menu__item {
@@ -715,7 +756,6 @@ img {
   font-weight: 600;
   line-height: 48px;
   margin-bottom: 20px;
-  letter-spacing: 0.01em;
 }
 
 .notes__image {
@@ -880,6 +920,7 @@ img {
 .inspiration {
   padding-top: 135px;
   padding-bottom: 100px;
+  overflow-x: hidden;
 }
 
 .inspiration__title {
@@ -1084,6 +1125,43 @@ img {
   line-height: 22px;
 }
 
+.shops {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(90deg, #E8F0F6 50%, transparent -49%);
+}
+
+.shops__title {
+  font-family: "Literata", sans-serif;
+  font-weight: 600;
+  color: #132434;
+  margin-bottom: 50px;
+}
+
+.shops-map {
+  padding: 15px 35px;
+  text-decoration: none;
+}
+
+.shops-content {
+  margin-right: 62px;
+}
+
+.shops-slider {
+  flex: 0 1 755px;
+}
+
+.shops-slide__container {
+  display: grid;
+}
+
+.slide-item_3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
 .about {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -1246,4 +1324,26 @@ img {
   line-height: 80px;
   color: rgba(255, 255, 255, 0.6);
   margin-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-burger {
+    display: block;
+  }
+
+  .header-logo {
+    margin-right: 0;
+  }
+
+  .header__nav {
+    width: 0;
+    height: 0;
+    margin-right: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .header-user__nav {
+    margin-left: auto;
+  }
 }

@@ -12,7 +12,12 @@
 <body>
 <header class="header">
     <div class="container">
-        <div class="header-block flex-container">
+        <div class=" header-block flex-container">
+            <button class="btn-reset header-burger burger">
+                <span class="burger-line  line-first"></span>
+                <span class="burger-line burger-line_long"></span>
+                <span class="burger-line line-last"></span>
+            </button>
             <a class="header-logo logo">
                 <img src="img/header/logo.svg" width="170" height="45" alt="logo" class="header-logo__img">
             </a>
@@ -404,21 +409,23 @@
     <section class="shops">
         <h2 class="visually-hidden">магазины</h2>
         <div class="container">
-            <div class="shops-block">
+            <div class="shops-block flex-container">
                 <div class="shops-content">
-                    <h3 class="title shops__title">Более
-                        200 магазинов
+                    <h3 class="title shops__title">Более <br>
+                        200 магазинов <br>
                         в России</h3>
+
+                    <a href="#" class="button shops-map">Посмотреть на карте</a>
                 </div>
                 <div class="shops-slider">
-                    <div class="shops-slide shops-lide__container">
-                        <div class="shops-slide__item">
+                    <div class="shops-slide shops-slide__container">
+                        <div class="shops-slide__item slide-item_1">
                             <img src="img/shops/1.jpg" width="264" height="170" alt="1">
                         </div>
-                        <div class="shops-slide__item">
+                        <div class="shops-slide__item slide-item_2">
                             <img src="img/shops/2.jpg" width="264" height="170" alt="2">
                         </div>
-                        <div class="shops-slide__item">
+                        <div class="shops-slide__item slide-item_3">
                             <img src="img/shops/3.jpg" width="488" height="342" alt="3">
                         </div>
 
@@ -561,14 +568,14 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="footer-bottom__block">
-            <a class="footer-logo logo">
-                <img src="img/header/logo.svg" width="170" height="45" alt="logo" class="header-logo__img">
-            </a>
-            <div class="footer-copyright">&copy; 2020, Alexander Bogdanov. Все права защищены</div>
-            <div class="footer-bottom__block">
-                <a href="#" class="footer-bottom__link">Политика конфиденциальности</a>
-                <a href="#" class="footer-bottom__link">Условия продажи</a>
-            </div>
+                <a class="footer-logo logo">
+                    <img src="img/header/logo.svg" width="170" height="45" alt="logo" class="header-logo__img">
+                </a>
+                <div class="footer-copyright">&copy; 2020, Alexander Bogdanov. Все права защищены</div>
+                <div class="footer-bottom__block">
+                    <a href="#" class="footer-bottom__link">Политика конфиденциальности</a>
+                    <a href="#" class="footer-bottom__link">Условия продажи</a>
+                </div>
             </div>
             <!-- /.footer-bottom__block -->
         </div>

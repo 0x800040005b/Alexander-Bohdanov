@@ -1,0 +1,35 @@
+.shops {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(90deg, $gray-light-color 50%, transparent 51%-100%);
+  &__title{
+    font-family: "Literata",sans-serif;
+    font-weight: 600;
+    color: $dark-blue-color;
+    margin-bottom: 50px;
+  }
+  &-map{
+    padding: 15px 35px;
+    text-decoration: none;
+  }
+  &-content{
+    margin-right: 62px;
+  }
+  &-slider{
+    flex: 0 1 755px;
+  }
+  &-slide{
+    &__container{
+      display: grid;
+    }
+  }
+}
+
+.slide-item{
+  &_3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+}
