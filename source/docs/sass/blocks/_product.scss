@@ -1,0 +1,73 @@
+.product {
+  &-left{
+    max-width: 624px;
+    margin-right: 62px;
+  }
+  &__title {
+    font-weight: 600;
+    color: $dark-blue-color;
+    margin-bottom: 60px;
+
+  }
+  &-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &-text{
+      max-width: 322px;
+
+    }
+  }
+  &-text{
+    &__title{
+      font-family: "Gilroy",sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 26px;
+      color: $dark-blue-color;
+      margin-bottom: 20px;
+    }
+    &__price{
+      font-family: "Gilroy",sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: $dark-blue-color;
+      line-height: 28px;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+    &__desc{
+      font-family: "Gilroy",sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      color: $gray-dark-color;
+      margin-bottom: 66px;
+
+    }
+  }
+  &__link{
+    text-decoration: none;
+    &-wrapper{
+      display: flex;
+      align-items: center;
+
+    }
+  }
+  &-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  &-link__text{
+    font-family: "Gilroy",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: $dark-blue-color;
+    line-height: 22px;
+  }
+}

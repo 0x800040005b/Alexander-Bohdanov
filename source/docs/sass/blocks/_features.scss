@@ -1,0 +1,23 @@
+.features{
+  padding-top: 63px;
+  padding-bottom: 53px;
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(254px, 1fr));
+    grid-column-gap: 31px;
+  }
+  &__item{
+    align-items: center;
+    max-width: 254px;
+  }
+  &__text{
+    font-size: 16px;
+    font-family: "Gilroy",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__img{
+    margin-right: 10px;
+  }
+}

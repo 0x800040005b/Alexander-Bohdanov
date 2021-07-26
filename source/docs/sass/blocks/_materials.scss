@@ -1,0 +1,37 @@
+.materials{
+  background-image: linear-gradient(90deg, $gray-light-color 50%,  transparent 51%-100%);
+  padding-top: 110px;
+  &-block{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+  }
+  &__title{
+    font-family: "Literata",sans-serif;
+    font-weight: 600;
+    margin-bottom: 82px;
+  }
+  &-item{
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 40px;
+    max-width: 312px;
+  }
+  &-text{
+    font-family: "Gilroy",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: $dark-blue-color;
+    max-width: 252px;
+    margin-right: 10px;
+
+  }
+}
+.detail{
+  &-item{
+    margin-bottom: 40px;
+    align-items: center;
+  }
+}
